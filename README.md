@@ -1,6 +1,8 @@
 # SirGuanZz · 个人简历页
 
-单页静态简历站点，面向前端开发工程师职位展示。纯 HTML / CSS / JS，无构建依赖，浏览器直接打开即可。
+单页静态简历站点，面向前端开发工程师职位展示。纯 HTML / CSS / JS，无构建依赖。
+
+**在线访问：** https://sirguanzz.github.io/Resume/
 
 ## 页面结构
 
@@ -19,25 +21,27 @@
 
 ```bash
 # 方式一：直接打开
-open personal-skills.html
+open index.html
 
-# 方式二：本地静态服务（推荐，避免部分资源路径问题）
+# 方式二：本地静态服务（推荐）
 npx serve .
 ```
-
-打开后访问根目录下的 `personal-skills.html`。
 
 ## 目录说明
 
 ```
 .
-├── personal-skills.html  # 简历主页面（样式与脚本内联）
-├── avatar.png            # Hero 头像
+├── index.html   # 简历主页面（样式与脚本内联）
+├── avatar.png   # Hero 头像
 └── README.md
 ```
 
+## GitHub Pages
+
+站点由仓库 `main` 分支根目录部署。推送更新后，约 1～2 分钟可在上述地址访问。
+
 ## 技术说明
 
-- 单文件落地，便于分享与部署到 GitHub Pages / 任意静态托管
+- 单文件落地，便于分享与静态托管
 - 含粒子背景、滚动显现、技能条动画等轻量交互
 - 响应式布局，适配桌面与移动端
